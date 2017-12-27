@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>무제 문서</title>
+</head>
+
+<body>
+<form name="form1" method="post" action="Main.html" width = "800px" height = "800px">
+  <p>&nbsp;</p>
+  <table width="600" border="2" cellspacing="2" cellpadding="2">
+    <tr>
+      <td bgcolor="#00FF00">&nbsp;</td>
+      <td bgcolor="#00FF00">기본정보입력</td>
+      <td bgcolor="#00FF00">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="30">&nbsp;</td>
+      <td width="150">이름</td>
+      <td width="420"><label for="username"></label>
+      <input type="text" name="username" id="username" placeholder=""></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>주민번호</td>
+      <td><label for="user_ssn1"></label>
+      <input type="text" name="user_ssn1" id="user_ssn1"> 
+      - 
+      <label for="user_ssn2"></label>
+      <input type="text" name="user_ssn2" id="user_ssn2"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>아이디</td>
+      <td><label for="user_id"></label>
+      <input type="text" name="user_id" id="user_id"> 
+      @naver.com 
+      <input type="submit" name="id_conflict_chk" id="id_conflict_chk" value="중복체크"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>별명</td>
+      <td><label for="user_alias"></label>
+      <input type="text" name="user_alias" id="user_alias" value="홍길동"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>비밀번호</td>
+      <td>
+        <p>
+          <input type="password" name="user_pw" id="user_pw" value="1234">
+        </p>
+      <p>
+        <input type="password" name="user_pw2" id="user_pw2" value="1234"> 
+        확인을 위해 한번 더 입력해 주세요.
+      </p></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>비밀번호힌트</td>
+      <td><p>
+        <label for="user_pw_hint_ask"></label>
+        <select name="user_pw_hint_ask" id="user_pw_hint_ask" >
+          <option id ="opt1" selected="selected">다시 태어나면되고 싶은 것은?</option>
+        </select>
+      </p>
+      <p>
+        <label for="user_pw_hint_answer"></label>
+        <input type="text" name="user_pw_hint_answer" id="user_pw_hint_answer" value ="답을 입력하세요.">
+      </p></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>생년월일</td>
+      <td><label for="user_birth1"></label>
+      <input type="text" name="user_birth1" id="user_birth1"
+      width="40" height="18">  <label for="user_birth2"></label>
+      <select name="user_birth2" id="user_birth2">
+      <option>01</option>
+      <option>02</option>
+      <option>03</option>
+      <option>04</option>
+      <option>05</option>
+      <option selected="selected">06</option>
+      <option>07</option>
+      <option>08</option>
+      <option>09</option>
+      <option>10</option>
+      <option>11</option>
+      <option>12</option>
+      </select>
+      <label for="user_birth3"></label>
+      <select name="user_birth3" id="user_birth3">
+      <option>01</option>
+      <option>02</option>
+      <option>03</option>
+      <option>04</option>
+      <option>05</option>
+      <option>06</option>
+      <option selected="selected">07</option>
+      <option>08</option>
+      <option>09</option>
+      <option>10</option>
+      <option>11</option>
+      <option>12</option>
+      <option>13</option>
+      <option>14</option>
+      <option>15</option>
+      <option>16</option>
+      <option>17</option>
+      <option>18</option>
+      <option>19</option>
+      <option>20</option>
+      <option>21</option>
+      <option>22</option>
+      <option>23</option>
+      <option>24</option>
+      <option>25</option>
+      <option>26</option>
+      <option>27</option>
+      <option>28</option>
+      <option>29</option>
+      <option>30</option>
+      <option>31</option>
+      </select>  <input type="radio" name="birth_radio" id="user_birth_radio" value="user_birth_radio" checked="checked">
+     <label for='user_birth_radio'>양</label>
+      <input type="radio" name="birth_radio" id="user_birth_radio2" value="user_birth_radio">
+     <label for='user_birth_radio2'>음</label>
+     </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>핸드폰</td>
+      <td><select name="user_cellphone1" id="user_cellphone1">
+        <option selected="selected">010</option>
+        <option>011</option>
+        <option>017</option>
+        <option>019</option>
+      </select> 
+          - 
+          <label for="user_cellphone2"></label>
+        <input type="text" name="user_cellphone2" id="user_cellphone2" width="60" value="1111"> 
+        - 
+        <label for="user_cellphone3"></label>
+        <input type="text" name="user_cellphone3" id="user_cellphone3" width="60" value="1111"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>주로쓰는 메일</td>
+      <td><label for="user_email"></label>
+      <input type="text" name="user_email" id="user_email" height="20px">  <input type="checkbox" name="user_email_chk" id="user_email_chk">
+      네이버 메일 사용</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>거주지</td>
+      <td><label for="user_loc"></label>
+        <select name="user_loc" id="user_loc">
+        <option>부산</option>
+        <option selected="selected">서울</option>
+        <option>경기</option>
+        <option>인천</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>메일 수신 여부</td>
+      <td><p>
+        <label>
+          <input type="checkbox" name="user_mail_letter" value="네이버 뉴스레터" id="user_mail_letter_0" checked="checked">
+         네이버 뉴스레터</label>
+        <br>
+        <label>
+          <input type="checkbox" name="user_mail_letter" value="상품정보 메일" id="user_mail_letter_1" checked="checked">
+          상품정보 메일</label>
+        <br>
+        <label>
+          <input type="checkbox" name="user_mail_letter" value="캐쉬정보 메일" id="user_mail_letter_2 " checked="checked">
+          캐쉬정보 메일</label>
+        <br>
+        <label>
+          <input type="checkbox" name="user_mail_letter" value="게임정보 메일" id="user_mail_letter_3">
+          게임정보 메일</label>
+        <br>
+        <label>
+          <input type="checkbox" name="user_mail_letter" value="sms 정보 수신" id="user_mail_letter_4">
+        sms 정보 수신</label>
+        <br>
+      </p></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <input type="submit" value="가입">
+  <input type="reset" value="취소">
+</form>
+</body>
+</html>
