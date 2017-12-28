@@ -5,10 +5,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="../css/mainIntro.css">
+<link href="${pageContext.request.contextPath}/resources/css/bootstrap-theme.css" rel="stylesheet" >
+<link href="${pageContext.request.contextPath}/resources/css/bootstrap.css" rel="stylesheet" >
+
+
+<!-- <link rel="stylesheet" href="../css/mainIntro.css">
 <link rel="stylesheet" href="../css/bootstrap-theme.css">
 <link rel="stylesheet" href="../css/bootstrap.css">
-
+ -->
 </head>
 <body>
  <header class="h_calendar"  style="background:purple;">
@@ -38,6 +42,6 @@
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@ CONTENT @@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
 	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@ FOOTER_ @@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
-	<%@ include file="../footer/footer.jsp"%>
+	<%@ include file="footer/footer.jsp"%>
 </body>
 </html>
