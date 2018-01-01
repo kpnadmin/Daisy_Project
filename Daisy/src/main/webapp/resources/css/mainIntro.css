@@ -1,86 +1,18 @@
 /* CSS Document */
 
 header, .h_calendar{
-	background-color:#FC02E8;
+	background-color:#FC02E8 !important;
 }
 
 
-.section_aside {
-    float: right;
-    width: 280px;
-    height: 700px;
-    margin-top: 1px;
+.login_area .btn_login {
+    margin-bottom: 11px;
 }
-div {
+calendar_login.¡¦1227031941:701
+.login_area .btn_login, .login_area .btn_login .btn_inner {
+    height: 36px;
+    background-position: 0 -219px;
     display: block;
-}
-
-.h_index_info h3 {
-    height: 93px;
-    padding: 33px 0 0 41px;
-    border-left: 1px solid #dcdcdc;
-    border-right: 1px solid #dcdcdc;
-    background-color: #fff;
-}
-.content {
-    position: relative;
-    width: 1025px;
-    margin: 0 auto;
-    padding-top: 12px;
-}
-
-#container {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-width: 1025px;
-    background: #f2f2f2;
-}
-
-.section_area {
-    float: left;
-    width: 729px;
-    background: #fafafa url(https://ssl.pstatic.net/static/calendar/2013/bg_cont.png) no-repeat 0 0;
-}
-
-.banner_rolling {
-    overflow: hidden;
-    width: 625px;
-    height: 471px;
-    margin: 0 auto;
-}
-
-.banner_area .btn_next {
-    right: 27px;
-    background-position: -140px -47px;
-}
-
-.banner_area .btn_prev, .banner_area .btn_next {
-    display: block;
-    overflow: hidden;
-    position: absolute;
-    top: 252px;
-    width: 24px;
-    height: 50px;
-    text-indent: -500em;
-}
-
-.rolling_paging {
-    position: relative;
-    width: 673px;
-    height: 13px;
-    margin: 12px auto 0;
-    border-top: 1px solid #E4E4E4;
-    text-align: center;
-}
-
-.banner_area .btn_next {
-    display: block;
-    overflow: hidden;
-    position: absolute;
-    top: 252px;
-    width: 24px;
-    height: 50px;
-    text-indent: -500em;
+    text-decoration: none !important;
+    cursor: pointer;
 }
